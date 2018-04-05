@@ -1,0 +1,81 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jet.fdfs.spring.boot.autoconfigure.FastDfsProperties",
+      "name": "third-service.fastdfs",
+      "type": "com.jet.fdfs.spring.boot.autoconfigure.FastDfsProperties"
+    },
+    {
+      "sourceType": "com.jet.mail.spring.boot.autoconfigure.MailProperties",
+      "name": "third-service.mail",
+      "type": "com.jet.mail.spring.boot.autoconfigure.MailProperties"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "name": "third-service.sms",
+      "type": "com.jet.sms.spring.boot.autoconfigure.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jet.fdfs.spring.boot.autoconfigure.FastDfsProperties",
+      "name": "third-service.fastdfs.tracker-servers",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.mail.spring.boot.autoconfigure.MailProperties",
+      "name": "third-service.mail.server-request-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "name": "third-service.sms.msg-reply-ip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "defaultValue": "12302",
+      "name": "third-service.sms.msg-reply-port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "name": "third-service.sms.msg-send-status-ip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "defaultValue": "12303",
+      "name": "third-service.sms.msg-send-status-port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "name": "third-service.sms.msg-server-ip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "defaultValue": "3212",
+      "name": "third-service.sms.msg-server-port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "defaultValue": "03",
+      "name": "third-service.sms.msg-server-sub-code",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "name": "third-service.sms.msg-sign",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.sms.spring.boot.autoconfigure.SmsProperties",
+      "name": "third-service.sms.project-id",
+      "type": "java.lang.String"
+    }
+  ]
+}
